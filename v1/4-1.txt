@@ -4,7 +4,7 @@
  * @version : 2.8
 **/
 
-$password = "kill3r"; // Password 
+$password = "icrack"; // Password 
 
 
 
